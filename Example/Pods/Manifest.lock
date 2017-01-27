@@ -1,0 +1,16 @@
+PODS:
+  - Apsara (0.1.0)
+
+DEPENDENCIES:
+  - Apsara (from `../`)
+
+EXTERNAL SOURCES:
+  Apsara:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Apsara: 2017fedf8dd16ab23f23b9e72d5977184376fbe0
+
+PODFILE CHECKSUM: 46192b8858e7e430e56b61338b371fedae201c98
+
+COCOAPODS: 1.1.1

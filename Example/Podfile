@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Apsara_Example' do
+  pod 'Apsara', :path => '../'
+
+  target 'Apsara_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Apsara {
+  umbrella header "Apsara-umbrella.h"
+
+  export *
+  module * { export * }
+}

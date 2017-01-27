@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'Apsara/**/*.{swift}'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  s.requires_arc = true
 
 end

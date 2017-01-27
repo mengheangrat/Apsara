@@ -1,42 +1,18 @@
-#
-# Be sure to run `pod lib lint Apsara.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'Apsara'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Apsara.'
+  s.name = 'Apsara'
+  s.version = '1.0'
+  s.platform = :ios, '8.0'
+  s.license = 'MIT'
+  s.summary = 'Apsara is useful for you!!'
+  s.homepage = 'https://github.com/mengheangrat/Apsara'
+  s.author = { 'Mengheang Rat' => 'mengheangrat@icloud.com' }
+  s.source = { :git => 'https://github.com/mengheangrat/Apsara.git', :tag => '1.0' }
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/Apsara'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Rat Mengheang' => 'parker@2ntkh.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/Apsara.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.frameworks = 'UIKit', 'Foundation'
+  s.social_media_url = 'https://twitter.com/RatMengheang'
   s.ios.deployment_target = '8.0'
+  s.source_files = 'Apsara/**/*.{swift}'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  s.requires_arc = true
 
-  s.source_files = 'Apsara/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Apsara' => ['Apsara/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

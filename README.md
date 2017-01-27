@@ -22,7 +22,7 @@ pod "Apsara"
 
 ## Author
 
-Rat Mengheang, parker@2ntkh.com
+Rat Mengheang, mengheangrat@icloud.com
 
 ## License
 

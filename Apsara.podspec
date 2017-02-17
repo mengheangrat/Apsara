@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Apsara'
-  s.version = '1.0'
+  s.version = '1.0.1'
   s.platform = :ios, '8.0'
   s.license = 'MIT'
   s.summary = 'Apsara is useful for you!!'

@@ -1,12 +1,13 @@
 //
-//  CustomizableView.swift
+//  CustomizeImageView.swift
 //  Apasara
 //
 //  Created by Rat Mengheang on 1/27/17.
 
+
 import Foundation
 
-@IBDesignable class CustomizeView: UIView {
+@IBDesignable class ApsaraImageView: UIImageView {
     
     @IBInspectable var cornerRadius: CGFloat = 0 {
         
@@ -17,7 +18,6 @@ import Foundation
     }
     
     @IBInspectable var borderWidth: CGFloat = 0 {
-        
         didSet{
             
             layer.borderWidth = borderWidth
@@ -28,6 +28,13 @@ import Foundation
     @IBInspectable var borderColor: UIColor = UIColor.gray {
         didSet{
             layer.borderColor = borderColor.cgColor
+        }
+    }
+    
+    @IBInspectable var imageColor: UIColor = UIColor.gray {
+        didSet{
+            self.image = self.image!.withRenderingMode(.alwaysTemplate)
+            self.tintColor = imageColor
         }
     }
     
@@ -43,4 +50,5 @@ import Foundation
             self.layer.cornerRadius = self.layer.frame.height/2
         }
     }
+    
 }

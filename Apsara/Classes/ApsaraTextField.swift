@@ -1,17 +1,17 @@
 //
-//  CustomizeButton.swift
+//  CustomizeTextField.swift
 //  Apasara
 //
 //  Created by Rat Mengheang on 1/27/17.
 
-
 import Foundation
 
-@IBDesignable class CustomizeButton: UIButton{
+@IBDesignable class ApsaraTextField: UITextField {
     
     @IBInspectable var cornerRadius: CGFloat = 0 {
         
         didSet{
+            
             layer.cornerRadius = cornerRadius
         }
     }
@@ -31,3 +31,4 @@ import Foundation
         }
     }
 }
+

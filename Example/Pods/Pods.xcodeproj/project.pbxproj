@@ -11,11 +11,10 @@
 		1EAB5204E86BFBE992D547B579C01B6A /* Apsara-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9276DFD7D31FEC3E67F244F08753B7B0 /* Apsara-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F479D17BCCB452EFB3DF70B91D98148 /* Pods-Apsara_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABC23A511A0CEB9405EE8BCE0FCAC9F /* Pods-Apsara_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86DF8AA093950F8E7805FA09F8ABD34A /* Pods-Apsara_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A68329210867A97A16CCF8C1DB40A16B /* Pods-Apsara_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B57A2361E3AF56700B69B02 /* CustomizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57A2321E3AF56700B69B02 /* CustomizeButton.swift */; };
-		8B57A2371E3AF56700B69B02 /* CustomizeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57A2331E3AF56700B69B02 /* CustomizeImageView.swift */; };
-		8B57A2381E3AF56700B69B02 /* CustomizeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57A2341E3AF56700B69B02 /* CustomizeTextField.swift */; };
-		8B57A2391E3AF56700B69B02 /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57A2351E3AF56700B69B02 /* CustomizeView.swift */; };
-		8B57A23B1E3AFB5E00B69B02 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57A23A1E3AFB5E00B69B02 /* BorderView.swift */; };
+		8B57A2361E3AF56700B69B02 /* ApsaraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57A2321E3AF56700B69B02 /* ApsaraButton.swift */; };
+		8B57A2371E3AF56700B69B02 /* ApsaraImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57A2331E3AF56700B69B02 /* ApsaraImageView.swift */; };
+		8B57A2381E3AF56700B69B02 /* ApsaraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57A2341E3AF56700B69B02 /* ApsaraTextField.swift */; };
+		8B57A2391E3AF56700B69B02 /* CApsaraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57A2351E3AF56700B69B02 /* CApsaraView.swift */; };
 		A046E0E30A66B6406F4E1BE0A74CDAB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		AD08673288A747C6AA0FBBE6B11546D6 /* Pods-Apsara_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D2EBF20FA311EF0545B480142B67B /* Pods-Apsara_Example-dummy.m */; };
 		B3100228CA60228F3B191DFE21C656E8 /* Pods-Apsara_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB386B195B1BC4198B83CC7D662D44B /* Pods-Apsara_Tests-dummy.m */; };
@@ -46,11 +45,10 @@
 		6A26772425315E6FE778A34980ECD3B1 /* Pods-Apsara_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apsara_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		78EA92D3D7694910E84B5A7EE399F94A /* Apsara-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Apsara-dummy.m"; sourceTree = "<group>"; };
 		7ABC23A511A0CEB9405EE8BCE0FCAC9F /* Pods-Apsara_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Apsara_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8B57A2321E3AF56700B69B02 /* CustomizeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizeButton.swift; sourceTree = "<group>"; };
-		8B57A2331E3AF56700B69B02 /* CustomizeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizeImageView.swift; sourceTree = "<group>"; };
-		8B57A2341E3AF56700B69B02 /* CustomizeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizeTextField.swift; sourceTree = "<group>"; };
-		8B57A2351E3AF56700B69B02 /* CustomizeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
-		8B57A23A1E3AFB5E00B69B02 /* BorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
+		8B57A2321E3AF56700B69B02 /* ApsaraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApsaraButton.swift; sourceTree = "<group>"; };
+		8B57A2331E3AF56700B69B02 /* ApsaraImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApsaraImageView.swift; sourceTree = "<group>"; };
+		8B57A2341E3AF56700B69B02 /* ApsaraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApsaraTextField.swift; sourceTree = "<group>"; };
+		8B57A2351E3AF56700B69B02 /* CApsaraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CApsaraView.swift; sourceTree = "<group>"; };
 		8FC3A240B9B9249DDD49EF1597B582D1 /* Apsara.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Apsara.xcconfig; sourceTree = "<group>"; };
 		9276DFD7D31FEC3E67F244F08753B7B0 /* Apsara-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apsara-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -121,11 +119,10 @@
 		2AC570838F955BB6610C9AA81C24D14F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8B57A23A1E3AFB5E00B69B02 /* BorderView.swift */,
-				8B57A2321E3AF56700B69B02 /* CustomizeButton.swift */,
-				8B57A2331E3AF56700B69B02 /* CustomizeImageView.swift */,
-				8B57A2341E3AF56700B69B02 /* CustomizeTextField.swift */,
-				8B57A2351E3AF56700B69B02 /* CustomizeView.swift */,
+				8B57A2321E3AF56700B69B02 /* ApsaraButton.swift */,
+				8B57A2331E3AF56700B69B02 /* ApsaraImageView.swift */,
+				8B57A2341E3AF56700B69B02 /* ApsaraTextField.swift */,
+				8B57A2351E3AF56700B69B02 /* CApsaraView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -357,12 +354,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B57A2371E3AF56700B69B02 /* CustomizeImageView.swift in Sources */,
+				8B57A2371E3AF56700B69B02 /* ApsaraImageView.swift in Sources */,
 				B853943F98F8344B35BF77737348A580 /* Apsara-dummy.m in Sources */,
-				8B57A2381E3AF56700B69B02 /* CustomizeTextField.swift in Sources */,
-				8B57A2391E3AF56700B69B02 /* CustomizeView.swift in Sources */,
-				8B57A23B1E3AFB5E00B69B02 /* BorderView.swift in Sources */,
-				8B57A2361E3AF56700B69B02 /* CustomizeButton.swift in Sources */,
+				8B57A2381E3AF56700B69B02 /* ApsaraTextField.swift in Sources */,
+				8B57A2391E3AF56700B69B02 /* CApsaraView.swift in Sources */,
+				8B57A2361E3AF56700B69B02 /* ApsaraButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

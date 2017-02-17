@@ -27,7 +27,7 @@ Use can add corner radius, make circle image profile, add border for UIView, Tex
 
 ## Author
 
-Rat Mengheang, mengheangrat@icloud.com
+Mengheang Rat, mengheangrat@icloud.com
 
 ## License
 
